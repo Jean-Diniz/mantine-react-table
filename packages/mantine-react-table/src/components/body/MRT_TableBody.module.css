@@ -34,8 +34,8 @@
 }
 
 .pinned {
-  bottom: calc(var(--mrt-table-footer-height, unset) * 1px - 1px);
+  bottom: var(--mrt-table-footer-height, 0);
   position: sticky;
-  top: calc(var(--mrt-table-head-height, unset) * 1px - 1px);
+  top: var(--mrt-table-head-height, 0);
   z-index: 1;
 }
